@@ -3,11 +3,8 @@
 GymPass style app.
 
 ## RFs (Requisitos Funcionais)
-<!-- 
-!TODO: RFs (Requisitos Funcionais) são as funcionalidades que o usuário poderá realizar na aplicação.
-
-Exemplo: cadastrar usuário, autenticar, registrar check-in, etc.
--->
+**ℹ️ RFs são as funcionalidades que o usuário poderá realizar na aplicação.  
+Exemplo: cadastrar usuário, autenticar, registrar check-in, etc.**
 
 - [ ] Deve ser possível se cadastrar;
 - [ ] Deve ser possível se autenticar;
@@ -21,11 +18,8 @@ Exemplo: cadastrar usuário, autenticar, registrar check-in, etc.
 - [ ] Deve ser possível cadastrar uma academia;
 
 ## RNs (Regras de negócio)
-<!--
-!TODO: RNs (Regras de Negócio) são regras, restrições ou condições que determinam como cada requisito funcional deve ser implementado ou utilizado na aplicação.
-
+**ℹ️ RNs (Regras de Negócio) são regras, restrições ou condições que determinam como cada requisito funcional deve ser implementado ou utilizado na aplicação.
 Exemplo: O usuário só pode fazer check-in se estiver a menos de 10km da academia, ou só pode realizar um check-in por dia.
--->
 
 - [ ] O usuário não deve poder se cadastrar com um e-mail duplicado;
 - [ ] O usuário não pode fazer 2 check-ins no mesmo dia;
@@ -35,11 +29,8 @@ Exemplo: O usuário só pode fazer check-in se estiver a menos de 10km da academ
 - [ ] A academia só pode ser cadastrada por administradores;
 
 ## RNFs (Requisitos não funcionais) 
-<!--
-!TODO: RNFs (Requisitos Não Funcionais) são requisitos técnicos ou restrições que não estão diretamente ligados às funcionalidades para o usuário final, mas são essenciais para o funcionamento, desempenho, segurança ou manutenção da aplicação.
-
+**ℹ️: RNFs (Requisitos Não Funcionais) são requisitos técnicos ou restrições que não estão diretamente ligados às funcionalidades para o usuário final, mas são essenciais para o funcionamento, desempenho, segurança ou manutenção da aplicação.
 Exemplo: tempo de resposta da API, requisitos de segurança, escalabilidade, compatibilidade com navegadores, uso de determinada tecnologia, etc.
--->
 
 - [ ] A senha do usuário precisa estar criptografada;
 - [ ] Os dados de aplicação precisam estar persistido em um banco PostgresSQL;
