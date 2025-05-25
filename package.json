@@ -22,12 +22,16 @@
   },
   "homepage": "https://github.com/Alessandro0003/api-solid#readme",
   "devDependencies": {
+    "@rocketseat/eslint-config": "2.2.2",
     "@types/node": "22.15.21",
+    "eslint": "8.57.1",
     "tsup": "8.5.0",
     "tsx": "4.19.4",
     "typescript": "5.8.3"
   },
   "dependencies": {
-    "fastify": "5.3.3"
+    "dotenv": "16.5.0",
+    "fastify": "5.3.3",
+    "zod": "3.25.28"
   }
 }
