@@ -1,5 +1,6 @@
+import { UsersRepository } from "@/repositories/users";
 import { UserSchema } from "@/schemas/user";
-import { registerUseCase } from "@/use-cases/user";
+import { RegisterUseCases } from "@/use-cases/user";
 import type { FastifyReply, FastifyRequest } from "fastify";
 
 export const register = async (
@@ -9,7 +10,10 @@ export const register = async (
   const { name, email, password } = UserSchema.parse(request.body);
 
   try {
-    await registerUseCase({
+    const usersRepository = new UsersRepository();
+    const registerUseCase = new RegisterUseCases(usersRepository);
+
+    await registerUseCase.execute({
       name,
       email,
       password
