@@ -5,3 +5,9 @@ export namespace Create {
     passwordHash: string;
   }
 }
+
+export namespace FindByEmail {
+  export type Args = {
+    email: string;
+  }
+}
