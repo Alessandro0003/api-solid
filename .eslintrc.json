@@ -4,6 +4,7 @@
     "camelcase": "off",
     "no-useless-constructor": "off",
     "prettier/prettier": "off",
-    "@typescript-eslint/no-namespace": "off"
+    "@typescript-eslint/no-namespace": "off",
+    "@typescript-eslint/no-explicit-any": "off"
   }
 }
