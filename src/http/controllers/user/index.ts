@@ -24,8 +24,7 @@ export const register = async (
       return reply.status(409).send({ message: error.message });
     }
 
-    // !TODO fix me
-    return reply.status(500).send() 
+    throw error
   }
   
   return reply.status(201).send()
